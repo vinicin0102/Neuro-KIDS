@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "neurokids-ai",
+    "name": "NeuroKids AI",
     "slug": "neurokids-ai",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,20 +10,28 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6C9BCF"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.neurokids.ai"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#6C9BCF"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.neurokids.ai",
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "neurokids-ai-id"
+      }
     }
   }
 }
