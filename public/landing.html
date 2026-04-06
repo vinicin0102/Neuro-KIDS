@@ -109,9 +109,7 @@
         function submitLogin() {
             document.getElementById('loginSuccessMessage').style.display = 'block';
             setTimeout(() => {
-                // Aqui podemos no futuro redirecionar pro Expo Web App:
-                // window.location.href = "URL_DO_APP_AQUI";
-                alert('Acesso Liberado! O ambiente do aplicativo web será carregado em breve.');
+                window.location.href = "/app";
             }, 1000);
         }
     </script>
